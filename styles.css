@@ -16,6 +16,8 @@ body {
 	font-family: "Red Hat Display", sans-serif;
   	font-optical-sizing: auto;
   	font-style: normal;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .container {
@@ -137,5 +139,6 @@ button:hover {
 @media screen and (min-width: 768px) {
 	body {
 	background: url(images/pattern-background-desktop.svg);
+	background-repeat: no-repeat;
 	}
 }
